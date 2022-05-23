@@ -37,6 +37,7 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -59,7 +60,7 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
+          <!-- <li class="dropdown messages-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
               <span class="label label-success">4</span>
@@ -67,9 +68,8 @@
             <ul class="dropdown-menu">
               <li class="header">You have 4 messages</li>
               <li>
-                <!-- inner menu: contains the actual data -->
                 <ul class="menu">
-                  <li><!-- start message -->
+                  <li>
                     <a href="#">
                       <div class="pull-left">
                         <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
@@ -81,7 +81,6 @@
                       <p>Why not buy a new awesome theme?</p>
                     </a>
                   </li>
-                  <!-- end message -->
                   <li>
                     <a href="#">
                       <div class="pull-left">
@@ -134,9 +133,9 @@
               </li>
               <li class="footer"><a href="#">See All Messages</a></li>
             </ul>
-          </li>
+          </li> -->
           <!-- Notifications: style can be found in dropdown.less -->
-          <li class="dropdown notifications-menu">
+          <!-- <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
               <span class="label label-warning">10</span>
@@ -144,7 +143,6 @@
             <ul class="dropdown-menu">
               <li class="header">You have 10 notifications</li>
               <li>
-                <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
@@ -176,9 +174,9 @@
               </li>
               <li class="footer"><a href="#">View all</a></li>
             </ul>
-          </li>
+          </li> -->
           <!-- Tasks: style can be found in dropdown.less -->
-          <li class="dropdown tasks-menu">
+          <!-- <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-flag-o"></i>
               <span class="label label-danger">9</span>
@@ -186,9 +184,8 @@
             <ul class="dropdown-menu">
               <li class="header">You have 9 tasks</li>
               <li>
-                <!-- inner menu: contains the actual data -->
                 <ul class="menu">
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Design some buttons
@@ -202,8 +199,7 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Create a nice theme
@@ -217,8 +213,7 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Some task I need to do
@@ -232,8 +227,7 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Make beautiful transitions
@@ -247,18 +241,17 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
                 </ul>
               </li>
               <li class="footer">
                 <a href="#">View all tasks</a>
               </li>
             </ul>
-          </li>
+          </li> -->
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <!-- <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"> -->
               <span class="hidden-xs">Rian Hidayat Saputra</span>
             </a>
             <ul class="dropdown-menu">
@@ -319,7 +312,7 @@
         </div>
       </div>
       <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
+      <!-- <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Search...">
           <span class="input-group-btn">
@@ -327,12 +320,12 @@
                 </button>
               </span>
         </div>
-      </form>
+      </form> -->
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
+        <!-- <li class="active treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -343,10 +336,10 @@
             <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
             <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
-        </li>
+        </li> -->
         <li>
           <a href="{{route('siswa')}}">
-            <i class="fa fa-th"></i> <span>Siswa</span>
+          <i class="fa fa-users"></i><span>Siswa</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
@@ -354,7 +347,7 @@
         </li>
         <li>
           <a href="{{route('rombel')}}">
-            <i class="fa fa-th"></i> <span>Kelas</span>
+          <i class="fa fa-building"></i> <span>Kelas</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
@@ -362,7 +355,7 @@
         </li>
         <li>
           <a href="{{route('absen')}}">
-            <i class="fa fa-th"></i> <span>Absen</span>
+            <i class="fa fa-address-book"></i> <span>Absen</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
@@ -370,7 +363,7 @@
         </li>
         <li>
           <a href="{{route('laporan')}}">
-            <i class="fa fa-th"></i> <span>Laporan</span>
+            <i class="fa fa-book"></i> <span>Laporan</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
